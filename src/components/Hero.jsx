@@ -45,29 +45,30 @@ export default function Hero() {
 
                         <div className={`flex flex-wrap gap-3 pt-4 ${profilePhoto ? 'justify-center md:justify-start' : 'justify-center'}`}>
                             {/* Primary */}
-                            <a
-                                href="#https://www.linkedin.com/in/prathamyadav7502/"
-                                className="inline-flex items-center gap-2 rounded-md
-                         bg-white text-black px-5 py-2 text-sm font-medium
-                         hover:bg-gray-200 transition"
-                            >
-                                Get in touch
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    className="h-4 w-4"
-                                    fill="none"
-                                    viewBox="0 0 24 24"
-                                    stroke="currentColor"
-                                    strokeWidth={2}
-                                >
-                                    <path strokeLinecap="round" strokeLinejoin="round" d="M5 12h14" />
-                                    <path
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                        d="m12 5 7 7-7 7"
-                                    />
-                                </svg>
-                            </a>
+                          <a
+  href="mailto:pratham.ry@gmail.com"
+  className="inline-flex items-center gap-2 rounded-md
+  bg-white text-black px-5 py-2 text-sm font-medium
+  hover:bg-gray-200 transition"
+>
+  Get in touch
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    className="h-4 w-4"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke="currentColor"
+    strokeWidth={2}
+  >
+    <path strokeLinecap="round" strokeLinejoin="round" d="M5 12h14" />
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      d="m12 5 7 7-7 7"
+    />
+  </svg>
+</a>
+
 
                             {/* Secondary */}
                             <a
