@@ -49,6 +49,14 @@ const ProjectCard = ({ project }) => {
 
     const handleLaunch = (e, url, type) => {
         e.preventDefault();
+        // On mobile browsers, delaying window.open causes popup blockers to block the new tab.
+        // If on a small screen or touch device, open immediately instead of running the flying animation.
+        const isMobile = typeof window !== 'undefined' && (window.innerWidth < 768 || (window.matchMedia && window.matchMedia('(pointer:coarse)').matches));
+        if (isMobile) {
+            window.open(url, '_blank', 'noopener,noreferrer');
+            return;
+        }
+
         const rect = e.currentTarget.getBoundingClientRect();
         setLaunchConfig({ rect, url, type });
     };
