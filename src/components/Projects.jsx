@@ -191,10 +191,10 @@ const Projects = () => {
             isShopify: true
         },
         {
-            title: "SmileIE",
+            title: "Smileie",
             liveUrl: "https://smileie.com",
             link: "https://smileie.com",
-            description: "Irish Shopify store for smile care products.",
+            description: "smile care products.",
             tags: ["Shopify"],
             isShopify: true
         },
