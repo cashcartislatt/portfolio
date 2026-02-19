@@ -71,7 +71,7 @@ export default function Hero() {
 
                             {/* Secondary */}
                             <a
-                                href="https://github.com/pr"
+                                href="https://github.com/prathammarkweb"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="inline-flex items-center rounded-md
